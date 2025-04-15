@@ -1,0 +1,43 @@
+User-agent: *
+
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/uploads/siteground-optimizer-assets/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/uploads/siteground-optimizer-assets/
+Disallow: /*?*
+Disallow: /*?utm_
+Disallow: /*&utm_
+Disallow: /*?utm_
+Disallow: /*&utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+Disallow: /*?ref=
+Disallow: /*?sessionid=
+Disallow: /wp-content/languages/
+Disallow: /wp-json/
+
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+
+Sitemap: https://www.doncarlosteakhouse.com/sitemap_index.xml
+
+User-agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+Allow: /wp-content/plugins/*.css$
+Allow: /wp-content/plugins/*.js$
+Allow: /wp-content/themes/*.css$
+Allow: /wp-content/themes/*.js$
+Allow: /wp-includes/*.css$
+Allow: /wp-includes/*.js$
+
+# Emanuele Celentano 11/02/25
